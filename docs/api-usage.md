@@ -1,12 +1,36 @@
-# REST API Usage Guide
+# Akkuea REST API Documentation
 
-## Base URL
+## Table of Contents
 
-| Environment | URL |
-|---|---|
-| Development | `http://localhost:3001` |
-| Staging | `https://staging-api.akkuea.com` |
-| Production | `https://api.akkuea.com` |
+- [Quick Start](#quick-start)
+- [Authentication](#authentication)
+- [Base Configuration](#base-configuration)
+- [Authentication Endpoints](#authentication-endpoints)
+- [Users Endpoints](#users-endpoints)
+- [Properties Endpoints](#properties-endpoints)
+- [Lending Endpoints](#lending-endpoints)
+- [KYC Endpoints](#kyc-endpoints)
+- [Notifications Endpoints](#notifications-endpoints)
+- [Oracle Endpoints](#oracle-endpoints)
+- [Error Handling](#error-handling)
+- [Rate Limiting](#rate-limiting)
+- [Common Workflows](#common-workflows)
+
+---
+
+## Quick Start
+
+### Base URL
+
+```
+https://api.akkuea.com
+```
+
+For local development:
+
+```
+http://localhost:3001
+```
 
 ## Authentication
 
